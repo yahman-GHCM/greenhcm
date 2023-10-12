@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <meta name="msapplication-TileColor" content="#0E0E0E" />
+  <meta name="theme-color" content="#0E0E0E" />
+  <link rel="shortcut icon" href="/assets/img/apple-touch-icon.png" />
+  <meta name="description" content="Index page" />
+  <meta name="keywords" content="index, page" />
+  <meta name="author" content="" />
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:site" content="" />
+  <meta name="twitter:image" content="" />
+  <meta name="twitter:description" content="" />
+  <meta property="og:url" content="" />
+  <meta property="og:title" content="" />
+  <meta property="og:description" content="" />
+  <meta property="og:image" content="" />
+  <meta property="og:type" content="website" />
+  <title>Login Page</title>
+  <link rel="stylesheet" href="assets/vendor/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="assets/fonts/style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+  <link rel="stylesheet" href="assets/css/style.css" />
+  <script type="text/javascript">window.$crisp=[];window.CRISP_WEBSITE_ID="be79b0f6-5b3e-49c5-ac16-ad3ef52f91f2";(function(){d=document;s=d.createElement("script");s.src="https://client.crisp.chat/l.js";s.async=1;d.getElementsByTagName("head")[0].appendChild(s);})();</script>
+</head>
+
+<body>
+  <div class="shape shape--login-left"><img src="assets/img/shapes/login-1.png" alt="Shape" /></div>
+  <div class="shape shape--login-right"><img src="assets/img/shapes/login-2.png" alt="Shape" /></div>
+  <header class="top-header w-100 d-flex top-header--is-dark">
+    <div class="container-xl align-self-center">
+      <div class="row">
+        <div class="col-auto d-inline-block d-lg-none btn-menu-holder"><button class="btn btn-menu"><i class="fa fa-bars"></i></button></div>
+        <div class="col col-md-3 align-self-center">
+          <div class="top-header__logo top-header__logo--162"><a href="index.html"><img src="assets/img/ghcm-logo-dark.png" alt="Logo GreenHCM" /></a></div>
+        </div>
+        <div class="col-md">
+          <div class="menu-primary">
+            <ul class="menu-primary__list d-md-flex justify-content-md-between">
+              <li class="menu-primary__item"><a class="menu-primary__link menu-primary__link--active" href="index.html">Beranda</a></li>
+              <li class="menu-primary__item"><a class="menu-primary__link" href="index.html#solution" onclick="$('#solution').animatescroll({scrollSpeed:1000,easing:'easeOutQuint', padding: 100});">Solusi</a></li>
+              <li class="menu-primary__item"><a class="menu-primary__link" href="contact.html">Contact</a></li>
+              <li class="menu-primary__item drop-lang mb-md-0 mb-3 d-md-none d-block"><span class="menu-primary__link">Bahasa Indonesia <i class="fa fa-chevron-down text-sm ml-2"></i></span>
+                <ul class="menu-primary__list--one menu-primary__list--right text-left">
+                  <li class="menu-primary__item"><a class="menu-primary__link py-2 text-dark" href="#">English</a></li>
+                </ul>
+              </li>
+              <div class="d-block d-md-none pl-4"><a class="btn-login btn-site btn-circle font-weight-medium align-self-center ml-lg-3" href="login.html"><img src="assets/new-img/icon-login.svg" alt="Login SvgIcon" /></a></div>
+            </ul>
+          </div>
+        </div>
+        <div class="col-md-5 d-md-flex flex-row justify-content-end d-none">
+          <div class="menu-primary">
+            <ul class="menu-primary__list">
+              <li class="menu-primary__item drop-lang mb-md-0 mb-3"><span class="menu-primary__link">Bahasa Indonesia <i class="fa fa-chevron-down text-sm ml-2"></i></span>
+                <ul class="menu-primary__list--one menu-primary__list--right text-left">
+                  <li class="menu-primary__item"><a class="menu-primary__link py-2 text-dark" href="#">English</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div><a class="btn-login btn-site btn-circle font-weight-medium align-self-center ml-lg-3" href="login.html"><img src="assets/new-img/icon-login.svg" alt="Login SvgIcon" /></a>
+        </div>
+      </div>
+    </div>
+  </header>
+  <div class="screen pt-100 d-flex bg-login">
+    <div class="container position-relative mt-5 pt-5">
+      <h2 class="text-note font-weight-bold text-center clone-text text-rotate-login d-none d-md-block" data-clone="Login">Login</h2>
+      <div class="mxwidth-360 mx-auto px-3">
+        <h1 class="text-36 text-center mb-0">Welcome</h1><span class="text-14 text-center d-block mb-3">You need to sign in before continuing.</span>
+        <div class="form-holder mb-4">
+          <form action="#" method="post">
+            <div class="form-material mb-1"><input class="form-material__input" type="text" placeholder="Email/Username" required="required" /><label class="form-material__label">Email/Username</label></div>
+            <div class="form-material mb-1"><input class="form-material__input" type="password" placeholder="Password" required="required" /><label class="form-material__label">Password</label></div>
+            <div class="form-material mb-4"><input class="form-material__input" type="text" placeholder="Company code" required="required" /><label class="form-material__label">Company code</label></div>
+            <div class="form-group d-flex justify-content-between mb-4"><a class="text-14 font-weight-medium text-black color-h-green" href="#">Resend Confirmation</a><a class="text-14 font-weight-medium text-black color-h-green" href="#">Forgot Password ?</a></div><button class="btn btn-site btn-block font-weight-medium py-2">Log in</button>
+          </form>
+        </div>
+        <hr class="mb-4" />
+        <div class="button-pages row row-cols-sm-2 mx-n2">
+          <div class="col-sm px-2 mb-3"><a class="btn btn-pages btn-block py-2 shadow-site">Get company code?</a></div>
+          <!-- <div class="col-sm px-2 mb-3"><a class="btn btn-pages btn-block py-2 shadow-site">Demo Account</a></div> -->
+          <div class="col-sm px-2 mb-3"><a class="btn btn-pages btn-block py-2 shadow-site" href="index.html">Home</a></div>
+          <div class="col-sm px-2 mb-3"><a class="btn btn-pages btn-block py-2 shadow-site" href="register.html">Register Company</a></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+<!-- <button class="btn-chat"> -->
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+  <script src="assets/vendor/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/js/main.js"></script>
+</button>
+
+</html>

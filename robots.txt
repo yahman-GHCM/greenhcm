@@ -1,0 +1,2 @@
+User-agent: *
+Disallow: /f_contact.php

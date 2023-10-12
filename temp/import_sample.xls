@@ -1,0 +1,189 @@
+<?xml version="1.0"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+  xmlns:o="urn:schemas-microsoft-com:office:office"
+  xmlns:x="urn:schemas-microsoft-com:office:excel"
+  xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+  xmlns:html="http://www.w3.org/TR/REC-html40">
+  <Styles>
+	<Style ss:ID="s63">
+	    <Alignment ss:Horizontal="Center"/>
+	    <Font ss:Bold="1" ss:Size="12"/>
+	</Style>
+
+	<Style ss:ID="s64">
+	    <Alignment ss:Horizontal="Center"/>
+	    <Borders>
+	        <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+	        <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+	        <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+	        <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+	    </Borders>
+	    <Font ss:Bold="1"/>
+	    <Interior ss:Color="#C0C0C0" ss:Pattern="Solid"/>
+	</Style>
+
+	<Style ss:ID="s65">
+	    <Borders>
+	        <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+	        <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+	        <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+	        <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+	    </Borders>
+	</Style>
+
+	<Style ss:ID="s66">
+	    <Alignment ss:Horizontal="Center"/>
+	    <Borders>
+	        <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+	        <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+	        <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+	        <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+	    </Borders>
+	    <Font ss:Bold="1"/>
+	    <Interior ss:Color="#27AA6B" ss:Pattern="Solid"/>
+	</Style>
+
+	<Style ss:ID="s67">
+	    <Alignment ss:Horizontal="Center"/>
+	    <Borders>
+	        <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+	        <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+	        <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+	        <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+	    </Borders>
+	    <Font ss:Bold="1"/>
+	    <Interior ss:Color="#F39C12" ss:Pattern="Solid"/>
+	</Style>
+
+	<Style ss:ID="s68">
+	    <Alignment ss:Horizontal="Center"/>
+	    <Font ss:Bold="1"/>
+	    <Interior ss:Color="#fbfb9c"/>
+	</Style>
+	<Style ss:ID="s69">
+	    <Alignment ss:Horizontal="Center"/>
+	    <Font ss:Italic="1" ss:Color="#800000"/>
+	    <Interior ss:Color="#fbfb9c"/>
+	</Style>
+</Styles>
+  <Worksheet ss:Name="Sheet1">
+    <Table>
+      <Row></Row>
+      <Row>
+        <Cell ss:StyleID="s68" ><Data ss:Type="String">Email</Data></Cell>
+        <Cell ss:StyleID="s68" ><Data ss:Type="String">Phone Number</Data></Cell>
+        <Cell ss:StyleID="s68" ><Data ss:Type="String">FullName</Data></Cell>
+        <Cell ss:StyleID="s68" ><Data ss:Type="String">Phone Number</Data></Cell>
+        <Cell ss:StyleID="s68" ><Data ss:Type="String">BirthDate</Data></Cell>
+        <Cell ss:StyleID="s68" ><Data ss:Type="String">Notes</Data></Cell>
+        <Cell ss:StyleID="s68" ><Data ss:Type="String">NIK</Data></Cell>
+        <Cell ss:StyleID="s68" ><Data ss:Type="String">Structure</Data></Cell>
+        <Cell ss:StyleID="s68" ><Data ss:Type="String">Shift</Data></Cell>
+        <Cell ss:StyleID="s68" ><Data ss:Type="String">Role</Data></Cell>
+        <Cell ss:StyleID="s68" ><Data ss:Type="String">Check In Location</Data></Cell>
+        <Cell ss:StyleID="s68" ><Data ss:Type="String">Check Out Location</Data></Cell>
+        <Cell ss:StyleID="s68" ><Data ss:Type="String">Calculating</Data></Cell>
+        <Cell ss:StyleID="s68" ><Data ss:Type="String">Reduce Type</Data></Cell>
+        <Cell ss:StyleID="s68" ><Data ss:Type="String">Late Reduce Principle</Data></Cell>
+        <Cell ss:StyleID="s68" ><Data ss:Type="String">Principle</Data></Cell>
+        <Cell ss:StyleID="s68" ><Data ss:Type="String">Late Reduce Meal</Data></Cell>
+        <Cell ss:StyleID="s68" ><Data ss:Type="String">Meal</Data></Cell>
+        <Cell ss:StyleID="s68" ><Data ss:Type="String">Late Reduce Transport</Data></Cell>
+        <Cell ss:StyleID="s68" ><Data ss:Type="String">Transport</Data></Cell>
+        <Cell ss:StyleID="s68" ><Data ss:Type="String">Taxable Type</Data></Cell>
+        <Cell ss:StyleID="s68" ><Data ss:Type="String">Allowance Position</Data></Cell>
+        <Cell ss:StyleID="s68" ><Data ss:Type="String">Functional</Data></Cell>
+        <Cell ss:StyleID="s68" ><Data ss:Type="String">Family</Data></Cell>
+        <Cell ss:StyleID="s68" ><Data ss:Type="String">Home</Data></Cell>
+        <Cell ss:StyleID="s68" ><Data ss:Type="String">Asurance</Data></Cell>
+        <Cell ss:StyleID="s68" ><Data ss:Type="String">Loyal</Data></Cell>
+        <Cell ss:StyleID="s68" ><Data ss:Type="String">Accident Insurance</Data></Cell>
+        <Cell ss:StyleID="s68" ><Data ss:Type="String">Life Insurance</Data></Cell>
+        <Cell ss:StyleID="s68" ><Data ss:Type="String">Pension Insurance</Data></Cell>
+        <Cell ss:StyleID="s68" ><Data ss:Type="String">Old Age Insurance</Data></Cell>
+        <Cell ss:StyleID="s68" ><Data ss:Type="String">Health Insurance</Data></Cell>
+        <Cell ss:StyleID="s68" ><Data ss:Type="String">Join Date</Data></Cell>
+        <Cell ss:StyleID="s68" ><Data ss:Type="String">TaxType</Data></Cell>
+        <Cell ss:StyleID="s68" ><Data ss:Type="String">Bank Code</Data></Cell>
+        <Cell ss:StyleID="s68" ><Data ss:Type="String">Bank Account Name</Data></Cell>
+        <Cell ss:StyleID="s68" ><Data ss:Type="String">Bank Account Number</Data></Cell>
+      </Row>
+      <Row>
+        <Cell ss:StyleID="s69" ><Data ss:Type="String">mandatory</Data></Cell>
+        <Cell ss:StyleID="s69" ><Data ss:Type="String">mandatory</Data></Cell>
+        <Cell ss:StyleID="s69" ><Data ss:Type="String">mandatory</Data></Cell>
+        <Cell ss:StyleID="s69" ><Data ss:Type="String">mandatory</Data></Cell>
+        <Cell ss:StyleID="s68" ></Cell>
+        <Cell ss:StyleID="s69" ><Data ss:Type="String">mandatory</Data></Cell>
+        <Cell ss:StyleID="s69" ><Data ss:Type="String">mandatory</Data></Cell>
+        <Cell ss:StyleID="s69" ><Data ss:Type="String">mandatory</Data></Cell>
+        <Cell ss:StyleID="s69" ><Data ss:Type="String">mandatory</Data></Cell>
+        <Cell ss:StyleID="s69" ><Data ss:Type="String">mandatory</Data></Cell>
+        <Cell ss:StyleID="s69" ><Data ss:Type="String">mandatory</Data></Cell>
+        <Cell ss:StyleID="s69" ><Data ss:Type="String">mandatory</Data></Cell>
+        <Cell ss:StyleID="s69" ><Data ss:Type="String">mandatory</Data></Cell>
+        <Cell ss:StyleID="s69" ><Data ss:Type="String">mandatory</Data></Cell>
+        <Cell ss:StyleID="s69" ><Data ss:Type="String">mandatory</Data></Cell>
+        <Cell ss:StyleID="s69" ><Data ss:Type="String">mandatory</Data></Cell>
+        <Cell ss:StyleID="s69" ><Data ss:Type="String">mandatory</Data></Cell>
+        <Cell ss:StyleID="s69" ><Data ss:Type="String">mandatory</Data></Cell>
+        <Cell ss:StyleID="s69" ><Data ss:Type="String">mandatory</Data></Cell>
+        <Cell ss:StyleID="s69" ><Data ss:Type="String">mandatory</Data></Cell>
+        <Cell ss:StyleID="s69" ><Data ss:Type="String">mandatory</Data></Cell>
+        <Cell ss:StyleID="s69" ><Data ss:Type="String">mandatory</Data></Cell>
+        <Cell ss:StyleID="s69" ><Data ss:Type="String">mandatory</Data></Cell>
+        <Cell ss:StyleID="s69" ><Data ss:Type="String">mandatory</Data></Cell>
+        <Cell ss:StyleID="s69" ><Data ss:Type="String">mandatory</Data></Cell>
+        <Cell ss:StyleID="s69" ><Data ss:Type="String">mandatory</Data></Cell>
+        <Cell ss:StyleID="s69" ><Data ss:Type="String">mandatory</Data></Cell>
+        <Cell ss:StyleID="s69" ><Data ss:Type="String">mandatory</Data></Cell>
+        <Cell ss:StyleID="s69" ><Data ss:Type="String">mandatory</Data></Cell>
+        <Cell ss:StyleID="s69" ><Data ss:Type="String">mandatory</Data></Cell>
+        <Cell ss:StyleID="s69" ><Data ss:Type="String">mandatory</Data></Cell>
+        <Cell ss:StyleID="s69" ><Data ss:Type="String">mandatory</Data></Cell>
+        <Cell ss:StyleID="s69" ><Data ss:Type="String">mandatory</Data></Cell>
+        <Cell ss:StyleID="s68" ></Cell>
+        <Cell ss:StyleID="s68" ></Cell>
+        <Cell ss:StyleID="s68" ></Cell>
+      </Row>
+      <Row>
+        <Cell><Data ss:Type="String">email@greenhcm.com</Data></Cell>
+        <Cell><Data ss:Type="String">Testing Full Name</Data></Cell>
+        <Cell><Data ss:Type="String">08xxxxxxxx</Data></Cell>
+        <Cell><Data ss:Type="Date">2020-01-01</Data></Cell>
+        <Cell><Data ss:Type="String"></Data></Cell>
+        <Cell><Data ss:Type="String">1234568</Data></Cell>
+        <Cell><Data ss:Type="String">Testing Structure</Data></Cell>
+        <Cell><Data ss:Type="String">Testing Shift</Data></Cell>
+        <Cell><Data ss:Type="String">Testing Role</Data></Cell>
+        <Cell><Data ss:Type="String">Jakarta</Data></Cell>
+        <Cell><Data ss:Type="String">Jakarta</Data></Cell>
+        <Cell><Data ss:Type="String">Fix Month</Data></Cell>
+        <Cell><Data ss:Type="String">After Tax</Data></Cell>
+        <Cell><Data ss:Type="String">No</Data></Cell>
+        <Cell><Data ss:Type="Number">1000000</Data></Cell>
+        <Cell><Data ss:Type="String">No</Data></Cell>
+        <Cell><Data ss:Type="Number">0</Data></Cell>
+        <Cell><Data ss:Type="String">No</Data></Cell>
+        <Cell><Data ss:Type="Number">0</Data></Cell>
+        <Cell><Data ss:Type="String">Single</Data></Cell>
+        <Cell><Data ss:Type="Number">0</Data></Cell>
+        <Cell><Data ss:Type="Number">0</Data></Cell>
+        <Cell><Data ss:Type="Number">0</Data></Cell>
+        <Cell><Data ss:Type="Number">0</Data></Cell>
+        <Cell><Data ss:Type="Number">0</Data></Cell>
+        <Cell><Data ss:Type="Number">0</Data></Cell>
+        <Cell><Data ss:Type="Number">0</Data></Cell>
+        <Cell><Data ss:Type="Number">0</Data></Cell>
+        <Cell><Data ss:Type="Number">0</Data></Cell>
+        <Cell><Data ss:Type="Number">0</Data></Cell>
+        <Cell><Data ss:Type="Number">0</Data></Cell>
+        <Cell><Data ss:Type="String">2020-01-01</Data></Cell>
+        <Cell><Data ss:Type="String">gross</Data></Cell>
+        <Cell><Data ss:Type="String">bca</Data></Cell>
+        <Cell><Data ss:Type="String">Testing</Data></Cell>
+        <Cell><Data ss:Type="Number">12345</Data></Cell>
+      </Row>
+    </Table>
+  </Worksheet>
+</Workbook>
